@@ -1,0 +1,25 @@
+#include<stdio.h>
+void PFactors( int num);
+void IPFactors( int n);
+
+int main( )
+{
+        int num;
+        printf("Enter a number : ");
+        scanf("%d", &num);
+        printf("\nUsing Recursion :: \n");
+        PFactors(num);
+        printf("\n");
+        return 0;
+}
+
+void PFactors( int num)
+{
+        int i = 2;
+        if( num == 1 )
+                return;
+        while( num%i != 0 )
+                i++;
+        printf("%d ", i);
+        PFactors(num/i);
+}

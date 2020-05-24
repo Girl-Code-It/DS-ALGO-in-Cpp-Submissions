@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int pro(int x)
+{
+    if (x%2==0)
+        cout<<"even";
+    else
+        cout<<"Odd";
+}
+
+int main()
+{
+    int i;
+    cin>>i;
+    cout << pro(i) << "\n";
+    return 0;
+}
