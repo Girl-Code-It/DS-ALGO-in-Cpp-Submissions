@@ -1,0 +1,27 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+	int num;
+	cin >> num;										
+	for (int i = 0; i < num; i++)
+	{
+	    int element, K, temp, maxdiff = 0;
+	    cin >> element >> K;
+	    
+	    while(element--)
+	    {
+	        cin >> temp;
+	        
+	        if ((temp <= K) && (K - temp > maxdiff))
+	        {
+	            maxdiff = K - temp;
+	        }
+	    }
+	  
+	    cout << maxdiff << endl;
+	}
+	
+	
+}
