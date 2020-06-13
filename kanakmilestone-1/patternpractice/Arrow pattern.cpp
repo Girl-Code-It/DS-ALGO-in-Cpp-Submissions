@@ -9,7 +9,7 @@ int main() {
 	{     for(int p=0;p<i;p++)     
 	        cout<<" ";
 	    for(int p=0;p<i+1;p++)
-	        cout<<"* ";
+	        cout<<"*";
 	    cout<<""<<endl;      
 	}
 	for(int i=n/2;i<n;i++)
@@ -17,7 +17,7 @@ int main() {
 	     for(int p=0;p<n-i-1;p++)     
 	        cout<<" "; 
 	      for(int p=0;p<n-i;p++)
-	        cout<<"* ";  
+	        cout<<"*";  
 	     cout<<""<<endl;      
 	}
 	
