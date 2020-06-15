@@ -59,3 +59,23 @@ int main() {
     */
     return 0;
 }
+/*
+
+SAMPLE INPUT
+------------
+7
+Darshan 78
+Harshad 90
+Jaimin 87
+Nirav 88
+Hardik 1
+Fenil 70
+Lovlin 5
+
+SAMPLE OUTPUT
+-------------
+Harshad
+Nirav
+Jaimin
+
+*/
