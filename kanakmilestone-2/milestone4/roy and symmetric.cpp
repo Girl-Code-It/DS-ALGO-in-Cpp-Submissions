@@ -37,7 +37,7 @@ int main() {
 			}
 			if(n%2==1)
 			{	
-				int i=n/2+1;
+				int i=n/2;
 				for(int j=0;j<n/2;j++)
 				{
 					if(a[i][j]==a[i][n-1-j])
@@ -48,7 +48,7 @@ int main() {
 						goto q;
 					}
 				}
-				i=n/2+1;
+				i=n/2;
 				for(int j=0;j<n/2;j++)
 				{
 					if(a[j][i]==a[n-1-j][i])
