@@ -1,4 +1,6 @@
 /*Enter your code here. Read input from STDIN. Print your output to STDOUT*/
+
+/*  question link    https://www.techgig.com/practice/question/2d-array-alternating-rectangles-of-o-and-x/ajRaSDVDcXNDNXNFZjBwRzdzM2llWWtrYmg2ZXBOOGJNUmoyRkFuVWxJcVFWbzRCYXBTOCtubml1dDczYkt1YQ==/1    */
 #include <iostream>
 using namespace std;
 int main()
