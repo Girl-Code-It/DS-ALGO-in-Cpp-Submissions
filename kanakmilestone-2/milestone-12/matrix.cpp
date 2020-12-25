@@ -31,6 +31,6 @@ int main()
 		{
 			cout<<matrix[i--][k]<<" ";
 		}
-		cout<<" "<<endl;
+		cout<<""<<endl;
 	}
 }
