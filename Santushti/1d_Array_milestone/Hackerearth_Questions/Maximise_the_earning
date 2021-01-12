@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+int main()
+{long long s,r,n,h[10000001];
+    cin>>s;
+for(int i=0;i<s;i++)
+    {  
+        cin>>n>>r;  
+     int c=1;
+      int t=1;
+    int l=0;
+     int sum=0;
+        for(int j=0;j<n;j++)
+             cin>>h[j];
+     while(l+t<n)
+{
+    if(h[l]<h[l+t])
+    {   
+        c++;
+        l+=t;
+        t=1;
+    }
+        
+else
+    t++;
+}
+
+sum=(r*c);
+cout<<sum<<endl;
+    
+}
+return 0;
+    
+}
